@@ -5,7 +5,7 @@ $(".option").on("click", function() {
   var type = $(this).data("option");
   console.log($(type));
 
-  setTimeout(function() {
+  setTimeout (function()  {
     if (type === "home") {
       $(".home-body").addClass("active");
     } else if (type === "outdoor") {
